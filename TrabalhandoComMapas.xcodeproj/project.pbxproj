@@ -1,0 +1,547 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1B009AAA99E6432A388BC2F8 /* Pods_TrabalhandoComMapas.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 98574C657A24C8929356C476 /* Pods_TrabalhandoComMapas.framework */; };
+		4E0E0ECE21C4029B0086423A /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E0E0ECB21C4029B0086423A /* Result.swift */; };
+		4E0E0ECF21C4029B0086423A /* ClimaJson.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E0E0ECC21C4029B0086423A /* ClimaJson.swift */; };
+		4E0E0ED021C4029B0086423A /* Forecast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E0E0ECD21C4029B0086423A /* Forecast.swift */; };
+		4E0E0ED921C433050086423A /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E0E0ED821C433050086423A /* Extensions.swift */; };
+		4E0E0EDC21C44E910086423A /* sunny.png in Resources */ = {isa = PBXBuildFile; fileRef = 4E0E0EDB21C44E910086423A /* sunny.png */; };
+		4E0E0EDE21C44E9E0086423A /* rainy.png in Resources */ = {isa = PBXBuildFile; fileRef = 4E0E0EDD21C44E9E0086423A /* rainy.png */; };
+		4E0E0EE021C44EAF0086423A /* blustery.png in Resources */ = {isa = PBXBuildFile; fileRef = 4E0E0EDF21C44EAF0086423A /* blustery.png */; };
+		4E0E0EE221C48E0D0086423A /* ClimaJsonDao.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E0E0EE121C48E0D0086423A /* ClimaJsonDao.swift */; };
+		4E0E0EE421C498160086423A /* nublado.png in Resources */ = {isa = PBXBuildFile; fileRef = 4E0E0EE321C498160086423A /* nublado.png */; };
+		4E2FFDF221BEEBA500EC13C4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E2FFDF121BEEBA500EC13C4 /* AppDelegate.swift */; };
+		4E2FFDF421BEEBA500EC13C4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E2FFDF321BEEBA500EC13C4 /* ViewController.swift */; };
+		4E2FFDF721BEEBA500EC13C4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4E2FFDF521BEEBA500EC13C4 /* Main.storyboard */; };
+		4E2FFDF921BEEBA700EC13C4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4E2FFDF821BEEBA700EC13C4 /* Assets.xcassets */; };
+		4E2FFDFC21BEEBA700EC13C4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4E2FFDFA21BEEBA700EC13C4 /* LaunchScreen.storyboard */; };
+		4E2FFE0521BEECA900EC13C4 /* MapUmViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E2FFE0421BEECA900EC13C4 /* MapUmViewController.swift */; };
+		4E9C6A2221C0357D00A7FC69 /* ClimaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E9C6A2121C0357D00A7FC69 /* ClimaViewController.swift */; };
+		4E9C6A2521C0513200A7FC69 /* ClimaApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E9C6A2421C0513200A7FC69 /* ClimaApi.swift */; };
+		4E9C6A2721C0585300A7FC69 /* Clima.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E9C6A2621C0585300A7FC69 /* Clima.swift */; };
+		4EF4BE1E21C27B0600F1E500 /* ClimaDao.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EF4BE1D21C27B0600F1E500 /* ClimaDao.swift */; };
+		4EF4BE2221C2851A00F1E500 /* ClimaCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EF4BE2121C2851A00F1E500 /* ClimaCell.swift */; };
+		4EF4BE2521C2CFA300F1E500 /* ApiClimaTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EF4BE2421C2CFA300F1E500 /* ApiClimaTableViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4E0E0ECB21C4029B0086423A /* Result.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Result.swift; path = ../../../../fabiano/Result.swift; sourceTree = "<group>"; };
+		4E0E0ECC21C4029B0086423A /* ClimaJson.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ClimaJson.swift; path = ../../../../fabiano/ClimaJson.swift; sourceTree = "<group>"; };
+		4E0E0ECD21C4029B0086423A /* Forecast.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Forecast.swift; path = ../../../../fabiano/Forecast.swift; sourceTree = "<group>"; };
+		4E0E0ED821C433050086423A /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		4E0E0EDB21C44E910086423A /* sunny.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sunny.png; sourceTree = "<group>"; };
+		4E0E0EDD21C44E9E0086423A /* rainy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rainy.png; sourceTree = "<group>"; };
+		4E0E0EDF21C44EAF0086423A /* blustery.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blustery.png; sourceTree = "<group>"; };
+		4E0E0EE121C48E0D0086423A /* ClimaJsonDao.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClimaJsonDao.swift; sourceTree = "<group>"; };
+		4E0E0EE321C498160086423A /* nublado.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nublado.png; sourceTree = "<group>"; };
+		4E2FFDEE21BEEBA500EC13C4 /* TrabalhandoComMapas.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TrabalhandoComMapas.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4E2FFDF121BEEBA500EC13C4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4E2FFDF321BEEBA500EC13C4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4E2FFDF621BEEBA500EC13C4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4E2FFDF821BEEBA700EC13C4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4E2FFDFB21BEEBA700EC13C4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4E2FFDFD21BEEBA700EC13C4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4E2FFE0421BEECA900EC13C4 /* MapUmViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapUmViewController.swift; sourceTree = "<group>"; };
+		4E9C6A2121C0357D00A7FC69 /* ClimaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClimaViewController.swift; sourceTree = "<group>"; };
+		4E9C6A2421C0513200A7FC69 /* ClimaApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClimaApi.swift; sourceTree = "<group>"; };
+		4E9C6A2621C0585300A7FC69 /* Clima.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Clima.swift; sourceTree = "<group>"; };
+		4EF4BE1D21C27B0600F1E500 /* ClimaDao.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClimaDao.swift; sourceTree = "<group>"; };
+		4EF4BE2121C2851A00F1E500 /* ClimaCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClimaCell.swift; sourceTree = "<group>"; };
+		4EF4BE2421C2CFA300F1E500 /* ApiClimaTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiClimaTableViewController.swift; sourceTree = "<group>"; };
+		93D77E1B249DF3F6498FF818 /* Pods-TrabalhandoComMapas.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TrabalhandoComMapas.release.xcconfig"; path = "Pods/Target Support Files/Pods-TrabalhandoComMapas/Pods-TrabalhandoComMapas.release.xcconfig"; sourceTree = "<group>"; };
+		9468C5E857249279EE1536EC /* Pods-TrabalhandoComMapas.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TrabalhandoComMapas.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TrabalhandoComMapas/Pods-TrabalhandoComMapas.debug.xcconfig"; sourceTree = "<group>"; };
+		98574C657A24C8929356C476 /* Pods_TrabalhandoComMapas.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TrabalhandoComMapas.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4E2FFDEB21BEEBA500EC13C4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B009AAA99E6432A388BC2F8 /* Pods_TrabalhandoComMapas.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4E0E0ED721C432E30086423A /* Extras */ = {
+			isa = PBXGroup;
+			children = (
+				4E0E0ED821C433050086423A /* Extensions.swift */,
+			);
+			path = Extras;
+			sourceTree = "<group>";
+		};
+		4E0E0EDA21C44E830086423A /* img */ = {
+			isa = PBXGroup;
+			children = (
+				4E0E0EE321C498160086423A /* nublado.png */,
+				4E0E0EDB21C44E910086423A /* sunny.png */,
+				4E0E0EDD21C44E9E0086423A /* rainy.png */,
+				4E0E0EDF21C44EAF0086423A /* blustery.png */,
+			);
+			path = img;
+			sourceTree = "<group>";
+		};
+		4E2FFDE521BEEBA500EC13C4 = {
+			isa = PBXGroup;
+			children = (
+				4E2FFDF021BEEBA500EC13C4 /* TrabalhandoComMapas */,
+				4E2FFDEF21BEEBA500EC13C4 /* Products */,
+				D28AA6B92CEE8A820E725BFE /* Pods */,
+				DDF80B64450C6F11F7267E86 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		4E2FFDEF21BEEBA500EC13C4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4E2FFDEE21BEEBA500EC13C4 /* TrabalhandoComMapas.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4E2FFDF021BEEBA500EC13C4 /* TrabalhandoComMapas */ = {
+			isa = PBXGroup;
+			children = (
+				4E0E0EDA21C44E830086423A /* img */,
+				4E0E0ED721C432E30086423A /* Extras */,
+				4EF4BE2021C2850700F1E500 /* Cell */,
+				4EF4BE1F21C27B0C00F1E500 /* Dao */,
+				4EF4BE1C21C1ACD000F1E500 /* model */,
+				4E2FFE0321BEEC9000EC13C4 /* controller */,
+				4E2FFDF121BEEBA500EC13C4 /* AppDelegate.swift */,
+				4E2FFDF521BEEBA500EC13C4 /* Main.storyboard */,
+				4E2FFDF821BEEBA700EC13C4 /* Assets.xcassets */,
+				4E2FFDFA21BEEBA700EC13C4 /* LaunchScreen.storyboard */,
+				4E2FFDFD21BEEBA700EC13C4 /* Info.plist */,
+			);
+			path = TrabalhandoComMapas;
+			sourceTree = "<group>";
+		};
+		4E2FFE0321BEEC9000EC13C4 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				4E2FFDF321BEEBA500EC13C4 /* ViewController.swift */,
+				4E2FFE0421BEECA900EC13C4 /* MapUmViewController.swift */,
+				4E9C6A2121C0357D00A7FC69 /* ClimaViewController.swift */,
+				4EF4BE2421C2CFA300F1E500 /* ApiClimaTableViewController.swift */,
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		4EF4BE1C21C1ACD000F1E500 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				4EF4BE2321C2CF8200F1E500 /* ClimaJson */,
+				4E9C6A2421C0513200A7FC69 /* ClimaApi.swift */,
+				4E9C6A2621C0585300A7FC69 /* Clima.swift */,
+			);
+			name = model;
+			path = bojo;
+			sourceTree = "<group>";
+		};
+		4EF4BE1F21C27B0C00F1E500 /* Dao */ = {
+			isa = PBXGroup;
+			children = (
+				4EF4BE1D21C27B0600F1E500 /* ClimaDao.swift */,
+				4E0E0EE121C48E0D0086423A /* ClimaJsonDao.swift */,
+			);
+			path = Dao;
+			sourceTree = "<group>";
+		};
+		4EF4BE2021C2850700F1E500 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				4EF4BE2121C2851A00F1E500 /* ClimaCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		4EF4BE2321C2CF8200F1E500 /* ClimaJson */ = {
+			isa = PBXGroup;
+			children = (
+				4E0E0ECD21C4029B0086423A /* Forecast.swift */,
+				4E0E0ECB21C4029B0086423A /* Result.swift */,
+				4E0E0ECC21C4029B0086423A /* ClimaJson.swift */,
+			);
+			path = ClimaJson;
+			sourceTree = "<group>";
+		};
+		D28AA6B92CEE8A820E725BFE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9468C5E857249279EE1536EC /* Pods-TrabalhandoComMapas.debug.xcconfig */,
+				93D77E1B249DF3F6498FF818 /* Pods-TrabalhandoComMapas.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		DDF80B64450C6F11F7267E86 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				98574C657A24C8929356C476 /* Pods_TrabalhandoComMapas.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4E2FFDED21BEEBA500EC13C4 /* TrabalhandoComMapas */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4E2FFE0021BEEBA700EC13C4 /* Build configuration list for PBXNativeTarget "TrabalhandoComMapas" */;
+			buildPhases = (
+				ED42FC9D21C64187D0F5E94D /* [CP] Check Pods Manifest.lock */,
+				4E2FFDEA21BEEBA500EC13C4 /* Sources */,
+				4E2FFDEB21BEEBA500EC13C4 /* Frameworks */,
+				4E2FFDEC21BEEBA500EC13C4 /* Resources */,
+				DA26E9A6F7844983AFE94D4C /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TrabalhandoComMapas;
+			productName = "Trabalhando com mapas";
+			productReference = 4E2FFDEE21BEEBA500EC13C4 /* TrabalhandoComMapas.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4E2FFDE621BEEBA500EC13C4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = exemplos;
+				TargetAttributes = {
+					4E2FFDED21BEEBA500EC13C4 = {
+						CreatedOnToolsVersion = 10.0;
+					};
+				};
+			};
+			buildConfigurationList = 4E2FFDE921BEEBA500EC13C4 /* Build configuration list for PBXProject "TrabalhandoComMapas" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4E2FFDE521BEEBA500EC13C4;
+			productRefGroup = 4E2FFDEF21BEEBA500EC13C4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4E2FFDED21BEEBA500EC13C4 /* TrabalhandoComMapas */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4E2FFDEC21BEEBA500EC13C4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E2FFDFC21BEEBA700EC13C4 /* LaunchScreen.storyboard in Resources */,
+				4E0E0EDE21C44E9E0086423A /* rainy.png in Resources */,
+				4E0E0EE421C498160086423A /* nublado.png in Resources */,
+				4E0E0EDC21C44E910086423A /* sunny.png in Resources */,
+				4E0E0EE021C44EAF0086423A /* blustery.png in Resources */,
+				4E2FFDF921BEEBA700EC13C4 /* Assets.xcassets in Resources */,
+				4E2FFDF721BEEBA500EC13C4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		DA26E9A6F7844983AFE94D4C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-TrabalhandoComMapas/Pods-TrabalhandoComMapas-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/IQKeyboardManager/IQKeyboardManager.framework",
+				"${BUILT_PRODUCTS_DIR}/SVProgressHUD/SVProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/SWRevealViewController/SWRevealViewController.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+				"${BUILT_PRODUCTS_DIR}/VMaskTextField/VMaskTextField.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManager.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SVProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SWRevealViewController.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/VMaskTextField.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TrabalhandoComMapas/Pods-TrabalhandoComMapas-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ED42FC9D21C64187D0F5E94D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TrabalhandoComMapas-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4E2FFDEA21BEEBA500EC13C4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4EF4BE2221C2851A00F1E500 /* ClimaCell.swift in Sources */,
+				4E9C6A2521C0513200A7FC69 /* ClimaApi.swift in Sources */,
+				4EF4BE2521C2CFA300F1E500 /* ApiClimaTableViewController.swift in Sources */,
+				4E0E0ECF21C4029B0086423A /* ClimaJson.swift in Sources */,
+				4E0E0ED021C4029B0086423A /* Forecast.swift in Sources */,
+				4E9C6A2721C0585300A7FC69 /* Clima.swift in Sources */,
+				4E2FFE0521BEECA900EC13C4 /* MapUmViewController.swift in Sources */,
+				4E9C6A2221C0357D00A7FC69 /* ClimaViewController.swift in Sources */,
+				4E0E0ED921C433050086423A /* Extensions.swift in Sources */,
+				4E0E0ECE21C4029B0086423A /* Result.swift in Sources */,
+				4EF4BE1E21C27B0600F1E500 /* ClimaDao.swift in Sources */,
+				4E0E0EE221C48E0D0086423A /* ClimaJsonDao.swift in Sources */,
+				4E2FFDF421BEEBA500EC13C4 /* ViewController.swift in Sources */,
+				4E2FFDF221BEEBA500EC13C4 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4E2FFDF521BEEBA500EC13C4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4E2FFDF621BEEBA500EC13C4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4E2FFDFA21BEEBA700EC13C4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4E2FFDFB21BEEBA700EC13C4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4E2FFDFE21BEEBA700EC13C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4E2FFDFF21BEEBA700EC13C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4E2FFE0121BEEBA700EC13C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9468C5E857249279EE1536EC /* Pods-TrabalhandoComMapas.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L9287T92AZ;
+				INFOPLIST_FILE = "$(SRCROOT)/TrabalhandoComMapas/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.exemplos.Trabalhando-com-mapas";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4E2FFE0221BEEBA700EC13C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 93D77E1B249DF3F6498FF818 /* Pods-TrabalhandoComMapas.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L9287T92AZ;
+				INFOPLIST_FILE = "$(SRCROOT)/TrabalhandoComMapas/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.exemplos.Trabalhando-com-mapas";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4E2FFDE921BEEBA500EC13C4 /* Build configuration list for PBXProject "TrabalhandoComMapas" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E2FFDFE21BEEBA700EC13C4 /* Debug */,
+				4E2FFDFF21BEEBA700EC13C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4E2FFE0021BEEBA700EC13C4 /* Build configuration list for PBXNativeTarget "TrabalhandoComMapas" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E2FFE0121BEEBA700EC13C4 /* Debug */,
+				4E2FFE0221BEEBA700EC13C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4E2FFDE621BEEBA500EC13C4 /* Project object */;
+}

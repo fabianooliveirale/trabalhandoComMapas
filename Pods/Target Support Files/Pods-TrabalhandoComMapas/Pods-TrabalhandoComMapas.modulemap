@@ -1,0 +1,6 @@
+framework module Pods_TrabalhandoComMapas {
+  umbrella header "Pods-TrabalhandoComMapas-umbrella.h"
+
+  export *
+  module * { export * }
+}
