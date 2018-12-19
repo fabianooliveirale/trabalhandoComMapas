@@ -8,9 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		1B009AAA99E6432A388BC2F8 /* Pods_TrabalhandoComMapas.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 98574C657A24C8929356C476 /* Pods_TrabalhandoComMapas.framework */; };
-		4E0E0ECE21C4029B0086423A /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E0E0ECB21C4029B0086423A /* Result.swift */; };
-		4E0E0ECF21C4029B0086423A /* ClimaJson.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E0E0ECC21C4029B0086423A /* ClimaJson.swift */; };
-		4E0E0ED021C4029B0086423A /* Forecast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E0E0ECD21C4029B0086423A /* Forecast.swift */; };
 		4E0E0ED921C433050086423A /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E0E0ED821C433050086423A /* Extensions.swift */; };
 		4E0E0EDC21C44E910086423A /* sunny.png in Resources */ = {isa = PBXBuildFile; fileRef = 4E0E0EDB21C44E910086423A /* sunny.png */; };
 		4E0E0EDE21C44E9E0086423A /* rainy.png in Resources */ = {isa = PBXBuildFile; fileRef = 4E0E0EDD21C44E9E0086423A /* rainy.png */; };
@@ -23,6 +20,9 @@
 		4E2FFDF921BEEBA700EC13C4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4E2FFDF821BEEBA700EC13C4 /* Assets.xcassets */; };
 		4E2FFDFC21BEEBA700EC13C4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4E2FFDFA21BEEBA700EC13C4 /* LaunchScreen.storyboard */; };
 		4E2FFE0521BEECA900EC13C4 /* MapUmViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E2FFE0421BEECA900EC13C4 /* MapUmViewController.swift */; };
+		4E4F287821CAB7BD002CD6D6 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E4F287521CAB7BD002CD6D6 /* Result.swift */; };
+		4E4F287921CAB7BD002CD6D6 /* ClimaJson.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E4F287621CAB7BD002CD6D6 /* ClimaJson.swift */; };
+		4E4F287A21CAB7BD002CD6D6 /* Forecast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E4F287721CAB7BD002CD6D6 /* Forecast.swift */; };
 		4E9C6A2221C0357D00A7FC69 /* ClimaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E9C6A2121C0357D00A7FC69 /* ClimaViewController.swift */; };
 		4E9C6A2521C0513200A7FC69 /* ClimaApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E9C6A2421C0513200A7FC69 /* ClimaApi.swift */; };
 		4E9C6A2721C0585300A7FC69 /* Clima.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E9C6A2621C0585300A7FC69 /* Clima.swift */; };
@@ -32,9 +32,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		4E0E0ECB21C4029B0086423A /* Result.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Result.swift; path = ../../../../fabiano/Result.swift; sourceTree = "<group>"; };
-		4E0E0ECC21C4029B0086423A /* ClimaJson.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ClimaJson.swift; path = ../../../../fabiano/ClimaJson.swift; sourceTree = "<group>"; };
-		4E0E0ECD21C4029B0086423A /* Forecast.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Forecast.swift; path = ../../../../fabiano/Forecast.swift; sourceTree = "<group>"; };
 		4E0E0ED821C433050086423A /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		4E0E0EDB21C44E910086423A /* sunny.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sunny.png; sourceTree = "<group>"; };
 		4E0E0EDD21C44E9E0086423A /* rainy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rainy.png; sourceTree = "<group>"; };
@@ -49,6 +46,9 @@
 		4E2FFDFB21BEEBA700EC13C4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4E2FFDFD21BEEBA700EC13C4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4E2FFE0421BEECA900EC13C4 /* MapUmViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapUmViewController.swift; sourceTree = "<group>"; };
+		4E4F287521CAB7BD002CD6D6 /* Result.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Result.swift; path = ../../../../swiftProjetoClima/ProjetoClima/ClimaJson/Result.swift; sourceTree = "<group>"; };
+		4E4F287621CAB7BD002CD6D6 /* ClimaJson.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClimaJson.swift; sourceTree = "<group>"; };
+		4E4F287721CAB7BD002CD6D6 /* Forecast.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Forecast.swift; path = ../../../../swiftProjetoClima/ProjetoClima/ClimaJson/Forecast.swift; sourceTree = "<group>"; };
 		4E9C6A2121C0357D00A7FC69 /* ClimaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClimaViewController.swift; sourceTree = "<group>"; };
 		4E9C6A2421C0513200A7FC69 /* ClimaApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClimaApi.swift; sourceTree = "<group>"; };
 		4E9C6A2621C0585300A7FC69 /* Clima.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Clima.swift; sourceTree = "<group>"; };
@@ -169,9 +169,9 @@
 		4EF4BE2321C2CF8200F1E500 /* ClimaJson */ = {
 			isa = PBXGroup;
 			children = (
-				4E0E0ECD21C4029B0086423A /* Forecast.swift */,
-				4E0E0ECB21C4029B0086423A /* Result.swift */,
-				4E0E0ECC21C4029B0086423A /* ClimaJson.swift */,
+				4E4F287621CAB7BD002CD6D6 /* ClimaJson.swift */,
+				4E4F287721CAB7BD002CD6D6 /* Forecast.swift */,
+				4E4F287521CAB7BD002CD6D6 /* Result.swift */,
 			);
 			path = ClimaJson;
 			sourceTree = "<group>";
@@ -329,16 +329,16 @@
 			files = (
 				4EF4BE2221C2851A00F1E500 /* ClimaCell.swift in Sources */,
 				4E9C6A2521C0513200A7FC69 /* ClimaApi.swift in Sources */,
+				4E4F287A21CAB7BD002CD6D6 /* Forecast.swift in Sources */,
 				4EF4BE2521C2CFA300F1E500 /* ApiClimaTableViewController.swift in Sources */,
-				4E0E0ECF21C4029B0086423A /* ClimaJson.swift in Sources */,
-				4E0E0ED021C4029B0086423A /* Forecast.swift in Sources */,
 				4E9C6A2721C0585300A7FC69 /* Clima.swift in Sources */,
 				4E2FFE0521BEECA900EC13C4 /* MapUmViewController.swift in Sources */,
 				4E9C6A2221C0357D00A7FC69 /* ClimaViewController.swift in Sources */,
+				4E4F287821CAB7BD002CD6D6 /* Result.swift in Sources */,
 				4E0E0ED921C433050086423A /* Extensions.swift in Sources */,
-				4E0E0ECE21C4029B0086423A /* Result.swift in Sources */,
 				4EF4BE1E21C27B0600F1E500 /* ClimaDao.swift in Sources */,
 				4E0E0EE221C48E0D0086423A /* ClimaJsonDao.swift in Sources */,
+				4E4F287921CAB7BD002CD6D6 /* ClimaJson.swift in Sources */,
 				4E2FFDF421BEEBA500EC13C4 /* ViewController.swift in Sources */,
 				4E2FFDF221BEEBA500EC13C4 /* AppDelegate.swift in Sources */,
 			);
