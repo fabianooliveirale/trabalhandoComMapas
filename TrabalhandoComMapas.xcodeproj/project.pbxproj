@@ -23,6 +23,8 @@
 		4E4F287821CAB7BD002CD6D6 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E4F287521CAB7BD002CD6D6 /* Result.swift */; };
 		4E4F287921CAB7BD002CD6D6 /* ClimaJson.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E4F287621CAB7BD002CD6D6 /* ClimaJson.swift */; };
 		4E4F287A21CAB7BD002CD6D6 /* Forecast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E4F287721CAB7BD002CD6D6 /* Forecast.swift */; };
+		4E57653E21CACD51002667A1 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E57653D21CACD51002667A1 /* CoreLocation.framework */; };
+		4E57654221CADB54002667A1 /* OndeEstouViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E57654121CADB54002667A1 /* OndeEstouViewController.swift */; };
 		4E9C6A2221C0357D00A7FC69 /* ClimaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E9C6A2121C0357D00A7FC69 /* ClimaViewController.swift */; };
 		4E9C6A2521C0513200A7FC69 /* ClimaApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E9C6A2421C0513200A7FC69 /* ClimaApi.swift */; };
 		4E9C6A2721C0585300A7FC69 /* Clima.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E9C6A2621C0585300A7FC69 /* Clima.swift */; };
@@ -49,6 +51,8 @@
 		4E4F287521CAB7BD002CD6D6 /* Result.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Result.swift; path = ../../../../swiftProjetoClima/ProjetoClima/ClimaJson/Result.swift; sourceTree = "<group>"; };
 		4E4F287621CAB7BD002CD6D6 /* ClimaJson.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClimaJson.swift; sourceTree = "<group>"; };
 		4E4F287721CAB7BD002CD6D6 /* Forecast.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Forecast.swift; path = ../../../../swiftProjetoClima/ProjetoClima/ClimaJson/Forecast.swift; sourceTree = "<group>"; };
+		4E57653D21CACD51002667A1 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		4E57654121CADB54002667A1 /* OndeEstouViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OndeEstouViewController.swift; sourceTree = "<group>"; };
 		4E9C6A2121C0357D00A7FC69 /* ClimaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClimaViewController.swift; sourceTree = "<group>"; };
 		4E9C6A2421C0513200A7FC69 /* ClimaApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClimaApi.swift; sourceTree = "<group>"; };
 		4E9C6A2621C0585300A7FC69 /* Clima.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Clima.swift; sourceTree = "<group>"; };
@@ -65,6 +69,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4E57653E21CACD51002667A1 /* CoreLocation.framework in Frameworks */,
 				1B009AAA99E6432A388BC2F8 /* Pods_TrabalhandoComMapas.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -134,6 +139,7 @@
 				4E2FFE0421BEECA900EC13C4 /* MapUmViewController.swift */,
 				4E9C6A2121C0357D00A7FC69 /* ClimaViewController.swift */,
 				4EF4BE2421C2CFA300F1E500 /* ApiClimaTableViewController.swift */,
+				4E57654121CADB54002667A1 /* OndeEstouViewController.swift */,
 			);
 			path = controller;
 			sourceTree = "<group>";
@@ -188,6 +194,7 @@
 		DDF80B64450C6F11F7267E86 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				4E57653D21CACD51002667A1 /* CoreLocation.framework */,
 				98574C657A24C8929356C476 /* Pods_TrabalhandoComMapas.framework */,
 			);
 			name = Frameworks;
@@ -339,6 +346,7 @@
 				4EF4BE1E21C27B0600F1E500 /* ClimaDao.swift in Sources */,
 				4E0E0EE221C48E0D0086423A /* ClimaJsonDao.swift in Sources */,
 				4E4F287921CAB7BD002CD6D6 /* ClimaJson.swift in Sources */,
+				4E57654221CADB54002667A1 /* OndeEstouViewController.swift in Sources */,
 				4E2FFDF421BEEBA500EC13C4 /* ViewController.swift in Sources */,
 				4E2FFDF221BEEBA500EC13C4 /* AppDelegate.swift in Sources */,
 			);
