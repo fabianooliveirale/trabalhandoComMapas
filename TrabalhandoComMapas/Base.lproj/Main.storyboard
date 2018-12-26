@@ -102,71 +102,113 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IyZ-YD-aBi">
+                            <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IyZ-YD-aBi">
                                 <rect key="frame" x="16" y="96" width="125" height="100"/>
-                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="backgroundColor" red="0.87055803229278728" green="0.90882407235653573" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="125" id="a3Z-FF-mh5"/>
                                     <constraint firstAttribute="height" constant="100" id="qMO-rh-LWY"/>
                                 </constraints>
                                 <state key="normal" title="Mapas 1">
-                                    <color key="titleColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="35"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
                                 <connections>
                                     <segue destination="7Cu-Bh-xvm" kind="show" id="Lwp-Bj-zBK"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nn4-yy-tA4">
                                 <rect key="frame" x="234" y="96" width="125" height="100"/>
-                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="125" id="K20-DL-2Et"/>
                                     <constraint firstAttribute="height" constant="100" id="fwh-mg-NUn"/>
                                 </constraints>
                                 <state key="normal" title="Braço">
-                                    <color key="titleColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="35"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
                                 <connections>
                                     <segue destination="DeG-tZ-zed" kind="show" id="HAO-6F-ND0"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UEB-z9-dJ9">
+                            <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UEB-z9-dJ9">
                                 <rect key="frame" x="16" y="231" width="125" height="100"/>
-                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="backgroundColor" red="0.86911600828170776" green="0.90830701589584351" blue="0.99969965219497681" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="125" id="5KY-dt-WuK"/>
                                     <constraint firstAttribute="height" constant="100" id="htA-wF-Py9"/>
                                 </constraints>
                                 <state key="normal" title="Alamofire">
-                                    <color key="titleColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="35"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
                                 <connections>
                                     <segue destination="eWs-D1-nnZ" kind="show" id="9B2-bz-GNC"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tKD-9P-51O">
                                 <rect key="frame" x="234" y="231" width="125" height="100"/>
-                                <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="backgroundColor" red="0.86911600828170776" green="0.90830701589584351" blue="0.99969965219497681" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="100" id="TCE-wF-aR5"/>
                                     <constraint firstAttribute="width" constant="125" id="hKy-FM-bKM"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="18"/>
                                 <state key="normal" title="OndeEstou???">
-                                    <color key="titleColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="35"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
                                 <connections>
                                     <segue destination="xTa-98-hgQ" kind="show" id="duo-r4-Y4y"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="orh-vi-6L6">
+                                <rect key="frame" x="16" y="366" width="125" height="100"/>
+                                <color key="backgroundColor" red="0.86911600828170776" green="0.90830701589584351" blue="0.99969965219497681" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="125" id="HSx-Iz-Rm8"/>
+                                    <constraint firstAttribute="height" constant="100" id="ZgA-0E-Cfo"/>
+                                </constraints>
+                                <state key="normal" title="Viangens">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="35"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <segue destination="L9F-dU-lb6" kind="show" id="ctr-Kj-Sup"/>
+                                </connections>
+                            </button>
                         </subviews>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" red="0.14868113399999999" green="0.2089067101" blue="0.72564512489999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="UEB-z9-dJ9" firstAttribute="top" secondItem="IyZ-YD-aBi" secondAttribute="bottom" constant="35" id="0ex-6N-Fzw"/>
                             <constraint firstAttribute="trailing" secondItem="tKD-9P-51O" secondAttribute="trailing" constant="16" id="F5K-Fa-bzd"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="nn4-yy-tA4" secondAttribute="trailing" constant="16" id="Ipa-Pm-TGj"/>
                             <constraint firstItem="IyZ-YD-aBi" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="32" id="Qbm-5c-aPo"/>
+                            <constraint firstItem="orh-vi-6L6" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="XFO-ze-Nhi"/>
                             <constraint firstItem="nn4-yy-tA4" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="32" id="aQi-Kt-0D2"/>
+                            <constraint firstItem="orh-vi-6L6" firstAttribute="top" secondItem="UEB-z9-dJ9" secondAttribute="bottom" constant="35" id="cd3-BE-c1b"/>
                             <constraint firstItem="tKD-9P-51O" firstAttribute="top" secondItem="nn4-yy-tA4" secondAttribute="bottom" constant="35" id="e7O-Qp-Lkv"/>
                             <constraint firstItem="IyZ-YD-aBi" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="k5n-JA-pV3"/>
                             <constraint firstItem="UEB-z9-dJ9" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="tZv-6u-dkA"/>
@@ -336,6 +378,71 @@
             </objects>
             <point key="canvasLocation" x="1069.5999999999999" y="925.18740629685169"/>
         </scene>
+        <!--Minhas Viagens-->
+        <scene sceneID="Zgz-Ef-FuH">
+            <objects>
+                <tableViewController id="L9F-dU-lb6" customClass="MinhasViagensViewController" customModule="TrabalhandoComMapas" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="TSk-KN-dgq">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="cellViagem" rowHeight="69" id="Nav-az-HaO">
+                                <rect key="frame" x="0.0" y="28" width="375" height="69"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="Nav-az-HaO" id="ipd-uC-QiS">
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="68.5"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </tableViewCellContentView>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="L9F-dU-lb6" id="KBd-jO-rv9"/>
+                            <outlet property="delegate" destination="L9F-dU-lb6" id="GLZ-Fc-5wD"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="Minhas Viagens" id="RS4-BG-aYc">
+                        <barButtonItem key="rightBarButtonItem" systemItem="add" id="g9P-km-FoI">
+                            <connections>
+                                <segue destination="6JF-y6-SGe" kind="show" identifier="segueLista" id="6wa-eL-QEi"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="zhS-vw-8vu" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1904.8" y="904.49775112443785"/>
+        </scene>
+        <!--Map Minhas Viagens View Controller-->
+        <scene sceneID="HW4-JQ-ZpA">
+            <objects>
+                <viewController id="6JF-y6-SGe" customClass="MapMinhasViagensViewController" customModule="TrabalhandoComMapas" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="2Hj-7L-uRz">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="Zas-ti-M3d">
+                                <rect key="frame" x="0.0" y="64" width="375" height="603"/>
+                            </mapView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="Zas-ti-M3d" firstAttribute="top" secondItem="FUx-OM-HOS" secondAttribute="top" id="8sT-Pa-4Dt"/>
+                            <constraint firstItem="Zas-ti-M3d" firstAttribute="leading" secondItem="FUx-OM-HOS" secondAttribute="leading" id="8vf-DL-eId"/>
+                            <constraint firstItem="FUx-OM-HOS" firstAttribute="bottom" secondItem="Zas-ti-M3d" secondAttribute="bottom" id="B1w-IJ-9Pi"/>
+                            <constraint firstItem="FUx-OM-HOS" firstAttribute="trailing" secondItem="Zas-ti-M3d" secondAttribute="trailing" id="f9d-a0-NAs"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="FUx-OM-HOS"/>
+                    </view>
+                    <connections>
+                        <outlet property="map" destination="Zas-ti-M3d" id="cr3-Ok-RPK"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="oiw-hb-nhm" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2888.8000000000002" y="903.59820089955031"/>
+        </scene>
         <!--Map Um View Controller-->
         <scene sceneID="ytU-hM-Pe6">
             <objects>
@@ -373,6 +480,7 @@
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="dp1-DO-7Kc">
                         <rect key="frame" x="0.0" y="20" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>

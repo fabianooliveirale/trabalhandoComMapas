@@ -25,6 +25,11 @@
 		4E4F287A21CAB7BD002CD6D6 /* Forecast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E4F287721CAB7BD002CD6D6 /* Forecast.swift */; };
 		4E57653E21CACD51002667A1 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E57653D21CACD51002667A1 /* CoreLocation.framework */; };
 		4E57654221CADB54002667A1 /* OndeEstouViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E57654121CADB54002667A1 /* OndeEstouViewController.swift */; };
+		4E57655A21CD2313002667A1 /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 4E57655921CD2313002667A1 /* logo.png */; };
+		4E57655C21CD7F5C002667A1 /* MinhasViagensViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E57655B21CD7F5C002667A1 /* MinhasViagensViewController.swift */; };
+		4E57655F21CD8C4B002667A1 /* MapMinhasViagensViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E57655E21CD8C4B002667A1 /* MapMinhasViagensViewController.swift */; };
+		4E57656121CDA1E7002667A1 /* ViagemDao.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E57656021CDA1E7002667A1 /* ViagemDao.swift */; };
+		4E57656321CDA33D002667A1 /* Viagem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E57656221CDA33D002667A1 /* Viagem.swift */; };
 		4E9C6A2221C0357D00A7FC69 /* ClimaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E9C6A2121C0357D00A7FC69 /* ClimaViewController.swift */; };
 		4E9C6A2521C0513200A7FC69 /* ClimaApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E9C6A2421C0513200A7FC69 /* ClimaApi.swift */; };
 		4E9C6A2721C0585300A7FC69 /* Clima.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E9C6A2621C0585300A7FC69 /* Clima.swift */; };
@@ -53,6 +58,11 @@
 		4E4F287721CAB7BD002CD6D6 /* Forecast.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Forecast.swift; path = ../../../../swiftProjetoClima/ProjetoClima/ClimaJson/Forecast.swift; sourceTree = "<group>"; };
 		4E57653D21CACD51002667A1 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		4E57654121CADB54002667A1 /* OndeEstouViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OndeEstouViewController.swift; sourceTree = "<group>"; };
+		4E57655921CD2313002667A1 /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = logo.png; path = "../../../Downloads/imagens-minhas-viagens/logo.png"; sourceTree = "<group>"; };
+		4E57655B21CD7F5C002667A1 /* MinhasViagensViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MinhasViagensViewController.swift; sourceTree = "<group>"; };
+		4E57655E21CD8C4B002667A1 /* MapMinhasViagensViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapMinhasViagensViewController.swift; sourceTree = "<group>"; };
+		4E57656021CDA1E7002667A1 /* ViagemDao.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViagemDao.swift; sourceTree = "<group>"; };
+		4E57656221CDA33D002667A1 /* Viagem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Viagem.swift; sourceTree = "<group>"; };
 		4E9C6A2121C0357D00A7FC69 /* ClimaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClimaViewController.swift; sourceTree = "<group>"; };
 		4E9C6A2421C0513200A7FC69 /* ClimaApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClimaApi.swift; sourceTree = "<group>"; };
 		4E9C6A2621C0585300A7FC69 /* Clima.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Clima.swift; sourceTree = "<group>"; };
@@ -88,6 +98,7 @@
 		4E0E0EDA21C44E830086423A /* img */ = {
 			isa = PBXGroup;
 			children = (
+				4E57655921CD2313002667A1 /* logo.png */,
 				4E0E0EE321C498160086423A /* nublado.png */,
 				4E0E0EDB21C44E910086423A /* sunny.png */,
 				4E0E0EDD21C44E9E0086423A /* rainy.png */,
@@ -140,6 +151,8 @@
 				4E9C6A2121C0357D00A7FC69 /* ClimaViewController.swift */,
 				4EF4BE2421C2CFA300F1E500 /* ApiClimaTableViewController.swift */,
 				4E57654121CADB54002667A1 /* OndeEstouViewController.swift */,
+				4E57655B21CD7F5C002667A1 /* MinhasViagensViewController.swift */,
+				4E57655E21CD8C4B002667A1 /* MapMinhasViagensViewController.swift */,
 			);
 			path = controller;
 			sourceTree = "<group>";
@@ -150,6 +163,7 @@
 				4EF4BE2321C2CF8200F1E500 /* ClimaJson */,
 				4E9C6A2421C0513200A7FC69 /* ClimaApi.swift */,
 				4E9C6A2621C0585300A7FC69 /* Clima.swift */,
+				4E57656221CDA33D002667A1 /* Viagem.swift */,
 			);
 			name = model;
 			path = bojo;
@@ -160,6 +174,7 @@
 			children = (
 				4EF4BE1D21C27B0600F1E500 /* ClimaDao.swift */,
 				4E0E0EE121C48E0D0086423A /* ClimaJsonDao.swift */,
+				4E57656021CDA1E7002667A1 /* ViagemDao.swift */,
 			);
 			path = Dao;
 			sourceTree = "<group>";
@@ -264,6 +279,7 @@
 				4E0E0EDE21C44E9E0086423A /* rainy.png in Resources */,
 				4E0E0EE421C498160086423A /* nublado.png in Resources */,
 				4E0E0EDC21C44E910086423A /* sunny.png in Resources */,
+				4E57655A21CD2313002667A1 /* logo.png in Resources */,
 				4E0E0EE021C44EAF0086423A /* blustery.png in Resources */,
 				4E2FFDF921BEEBA700EC13C4 /* Assets.xcassets in Resources */,
 				4E2FFDF721BEEBA500EC13C4 /* Main.storyboard in Resources */,
@@ -334,6 +350,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4E57656321CDA33D002667A1 /* Viagem.swift in Sources */,
 				4EF4BE2221C2851A00F1E500 /* ClimaCell.swift in Sources */,
 				4E9C6A2521C0513200A7FC69 /* ClimaApi.swift in Sources */,
 				4E4F287A21CAB7BD002CD6D6 /* Forecast.swift in Sources */,
@@ -342,11 +359,14 @@
 				4E2FFE0521BEECA900EC13C4 /* MapUmViewController.swift in Sources */,
 				4E9C6A2221C0357D00A7FC69 /* ClimaViewController.swift in Sources */,
 				4E4F287821CAB7BD002CD6D6 /* Result.swift in Sources */,
+				4E57655C21CD7F5C002667A1 /* MinhasViagensViewController.swift in Sources */,
 				4E0E0ED921C433050086423A /* Extensions.swift in Sources */,
 				4EF4BE1E21C27B0600F1E500 /* ClimaDao.swift in Sources */,
 				4E0E0EE221C48E0D0086423A /* ClimaJsonDao.swift in Sources */,
 				4E4F287921CAB7BD002CD6D6 /* ClimaJson.swift in Sources */,
+				4E57655F21CD8C4B002667A1 /* MapMinhasViagensViewController.swift in Sources */,
 				4E57654221CADB54002667A1 /* OndeEstouViewController.swift in Sources */,
+				4E57656121CDA1E7002667A1 /* ViagemDao.swift in Sources */,
 				4E2FFDF421BEEBA500EC13C4 /* ViewController.swift in Sources */,
 				4E2FFDF221BEEBA500EC13C4 /* AppDelegate.swift in Sources */,
 			);
