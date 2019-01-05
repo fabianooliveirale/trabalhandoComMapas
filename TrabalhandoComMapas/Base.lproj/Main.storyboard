@@ -209,17 +209,54 @@
                                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                     <textInputTraits key="textInputTraits"/>
                                                 </textField>
+                                                <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="7xA-OU-Apc">
+                                                    <rect key="frame" x="16" y="44" width="351" height="29"/>
+                                                    <segments>
+                                                        <segment title="First"/>
+                                                        <segment title="Second"/>
+                                                    </segments>
+                                                    <connections>
+                                                        <action selector="segAction:" destination="mm0-8T-9JV" eventType="valueChanged" id="jpY-hV-Ffv"/>
+                                                    </connections>
+                                                </segmentedControl>
+                                                <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="cld-M9-Fwf">
+                                                    <rect key="frame" x="6" y="106" width="363" height="31"/>
+                                                    <connections>
+                                                        <action selector="sli:" destination="mm0-8T-9JV" eventType="valueChanged" id="1Oo-2e-usV"/>
+                                                    </connections>
+                                                </slider>
+                                                <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="9OL-pE-MM1">
+                                                    <rect key="frame" x="164" y="152" width="49" height="31"/>
+                                                    <connections>
+                                                        <action selector="switchAction:" destination="mm0-8T-9JV" eventType="valueChanged" id="qYZ-Ag-lep"/>
+                                                    </connections>
+                                                </switch>
+                                                <pickerView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="cHM-iD-neA">
+                                                    <rect key="frame" x="16" y="238" width="351" height="216"/>
+                                                </pickerView>
                                             </subviews>
                                             <constraints>
+                                                <constraint firstItem="7xA-OU-Apc" firstAttribute="top" secondItem="yXp-ip-EsH" secondAttribute="bottom" constant="8" id="09l-8A-ysq"/>
+                                                <constraint firstItem="cHM-iD-neA" firstAttribute="top" secondItem="9OL-pE-MM1" secondAttribute="bottom" constant="55" id="0Q3-0J-YuF"/>
+                                                <constraint firstItem="cld-M9-Fwf" firstAttribute="top" secondItem="7xA-OU-Apc" secondAttribute="bottom" constant="34" id="1gN-yS-KKV"/>
                                                 <constraint firstItem="udP-LS-2XE" firstAttribute="leading" secondItem="T6m-Pb-lCF" secondAttribute="leadingMargin" id="AYc-hh-Df2"/>
+                                                <constraint firstAttribute="trailing" secondItem="cHM-iD-neA" secondAttribute="trailing" constant="8" id="BcW-PJ-DiX"/>
                                                 <constraint firstItem="b97-UV-Rcx" firstAttribute="top" secondItem="T6m-Pb-lCF" secondAttribute="topMargin" id="DJK-YV-4LC"/>
                                                 <constraint firstItem="b97-UV-Rcx" firstAttribute="leading" secondItem="T6m-Pb-lCF" secondAttribute="leadingMargin" id="LHh-5m-x68"/>
                                                 <constraint firstItem="yXp-ip-EsH" firstAttribute="top" secondItem="T6m-Pb-lCF" secondAttribute="top" constant="6" id="Mar-F9-D21"/>
+                                                <constraint firstItem="9OL-pE-MM1" firstAttribute="leading" secondItem="T6m-Pb-lCF" secondAttribute="leadingMargin" constant="148" id="OCh-3h-uzv"/>
                                                 <constraint firstItem="b97-UV-Rcx" firstAttribute="top" secondItem="T6m-Pb-lCF" secondAttribute="topMargin" id="Sqd-fT-wac"/>
                                                 <constraint firstAttribute="trailing" secondItem="yXp-ip-EsH" secondAttribute="trailing" constant="16" id="WSw-0P-BBf"/>
                                                 <constraint firstItem="udP-LS-2XE" firstAttribute="top" secondItem="b97-UV-Rcx" secondAttribute="bottom" constant="736.5" id="ZGf-kU-gHH"/>
+                                                <constraint firstAttribute="trailingMargin" secondItem="9OL-pE-MM1" secondAttribute="trailing" constant="148" id="Zwt-dh-mHH"/>
                                                 <constraint firstItem="b97-UV-Rcx" firstAttribute="leading" secondItem="T6m-Pb-lCF" secondAttribute="leadingMargin" id="dJk-7T-aKF"/>
+                                                <constraint firstItem="cHM-iD-neA" firstAttribute="leading" secondItem="T6m-Pb-lCF" secondAttribute="leading" constant="16" id="kTy-K3-kUd"/>
                                                 <constraint firstItem="yXp-ip-EsH" firstAttribute="leading" secondItem="T6m-Pb-lCF" secondAttribute="leading" constant="81" id="mYT-WE-TyS"/>
+                                                <constraint firstItem="9OL-pE-MM1" firstAttribute="top" secondItem="cld-M9-Fwf" secondAttribute="bottom" constant="16" id="pUf-7z-rvB"/>
+                                                <constraint firstItem="cld-M9-Fwf" firstAttribute="trailing" secondItem="T6m-Pb-lCF" secondAttribute="trailingMargin" constant="8" id="sd8-Od-Wu6"/>
+                                                <constraint firstItem="7xA-OU-Apc" firstAttribute="trailing" secondItem="T6m-Pb-lCF" secondAttribute="trailingMargin" constant="8" id="vka-bf-pIe"/>
+                                                <constraint firstItem="cld-M9-Fwf" firstAttribute="leading" secondItem="T6m-Pb-lCF" secondAttribute="leading" constant="8" id="y6p-pm-r2Z"/>
+                                                <constraint firstItem="7xA-OU-Apc" firstAttribute="leading" secondItem="T6m-Pb-lCF" secondAttribute="leading" constant="16" id="y7C-P7-vuO"/>
                                             </constraints>
                                         </tableViewCellContentView>
                                     </tableViewCell>
@@ -250,6 +287,10 @@
                         <outlet property="label5" destination="b97-UV-Rcx" id="ZgQ-Iz-LMA"/>
                         <outlet property="label6" destination="udP-LS-2XE" id="sCL-gg-wjm"/>
                         <outlet property="label7" destination="hD8-5z-8Ne" id="Aix-5e-J4i"/>
+                        <outlet property="pickerOut" destination="cHM-iD-neA" id="UOF-nh-Du9"/>
+                        <outlet property="segOut" destination="7xA-OU-Apc" id="2IA-AN-ihs"/>
+                        <outlet property="sliOut" destination="cld-M9-Fwf" id="3zF-xL-epg"/>
+                        <outlet property="switchOut" destination="9OL-pE-MM1" id="fcq-Hf-pvd"/>
                         <outlet property="upConst" destination="S7E-hD-TeW" id="z3n-Pl-1z3"/>
                     </connections>
                 </tableViewController>

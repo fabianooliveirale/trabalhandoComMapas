@@ -8,7 +8,9 @@
 
 import UIKit
 
-class StaticViewTableViewController: UITableViewController {
+class StaticViewTableViewController: UITableViewController, UIPickerViewDelegate, UIPickerViewDataSource {
+    
+    
     
     @IBOutlet weak var upConst: NSLayoutConstraint!
     @IBOutlet weak var cel2: UITableViewCell!
@@ -93,14 +95,73 @@ class StaticViewTableViewController: UITableViewController {
     }
     
     
+    // SEGMENTED EXAMPLE
+    
+    @IBOutlet weak var segOut: UISegmentedControl!
+    @IBAction func segAction(_ sender: Any) {
+        
+        
+        print(segOut.selectedSegmentIndex)
+        
+    }
+    
+    // SLIDER EXAMPLE
+    
+    @IBOutlet weak var sliOut: UISlider!
+    @IBAction func sli(_ sender: Any) {
+        
+        print(sliOut.value)
+        
+    }
     
     
+    // SWITCH EXAMPLE
+    // dados iniciando em viewDidLoad() Verificar! e 
+    @IBOutlet weak var switchOut: UISwitch!
+    @IBAction func switchAction(_ sender: Any) {
+        
+        print(switchOut.isOn)
+        
+    }
     
+    
+    // PICKER EXAMPLE
+    
+    var pickerData: [String] = ["Item 1", "Item 2", "Item 3", "Item 4", "Item 5", "Item 6"]
+    
+    @IBOutlet weak var pickerOut: UIPickerView!
+    
+    
+    func numberOfComponents(in pickerView: UIPickerView) -> Int {
+        return 1
+    }
+    
+    func pickerView(_ pickerView: UIPickerView, numberOfRowsInComponent component: Int) -> Int {
+        return pickerData.count
+    }
+    
+    func pickerView(_ pickerView: UIPickerView, titleForRow row: Int, forComponent component: Int) -> String? {
+        return pickerData[row]
+    }
+    
+    func pickerView(_ pickerView: UIPickerView, didSelectRow row: Int, inComponent component: Int){
+        print(pickerData[row])
+        self.view.endEditing(true)
+    }
+    
+    
+    // fim picker example
     
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        // PICKER EXAMPLE
+        self.pickerOut.delegate = self
+        self.pickerOut.dataSource = self
+        
+        // FIM PICKER EXAMPLE
+    
         label1.text = "GARPI"
         
         label2.text = "GARPIRUGARPIRUGARPIRUGARPIRUGARPIRUGARPIRUGARPIRUGARPIRUGARPIRUGARPIRU"
@@ -119,7 +180,6 @@ class StaticViewTableViewController: UITableViewController {
         // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
         // self.navigationItem.rightBarButtonItem = self.editButtonItem
     }
-    
     
     override func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat
     {
