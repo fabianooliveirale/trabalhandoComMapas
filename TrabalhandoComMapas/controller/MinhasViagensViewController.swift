@@ -11,6 +11,7 @@ import UIKit
 class MinhasViagensViewController: UITableViewController {
 
     var lista: [Viagem] = []
+    var controle: String = "add"
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -42,8 +43,8 @@ class MinhasViagensViewController: UITableViewController {
     
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         
+        controle = "lista"
         performSegue(withIdentifier: "segueLista", sender: indexPath.row)
-        
         
     }
     
@@ -52,8 +53,11 @@ class MinhasViagensViewController: UITableViewController {
             if let indexPath = self.tableView.indexPathForSelectedRow {
                 let selected = lista[indexPath.row]
                 let vcDestino = segue.destination as! MapMinhasViagensViewController
+                
                 vcDestino.vaigem = selected
                 vcDestino.indiceSelecionado = indexPath.row
+                vcDestino.controle = controle
+                
             } 
         }
     }
@@ -79,25 +83,4 @@ class MinhasViagensViewController: UITableViewController {
         return cell
     }
     
-   //  func initLista(){
-        
-        
-    //     let dao:ViagemDao = ViagemDao()
-   //      lista = dao.list()
-        
-        
-  //  }
-
-    
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
-    }
-    */
-
 }

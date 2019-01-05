@@ -17,17 +17,64 @@ class MapMinhasViagensViewController: UIViewController, MKMapViewDelegate, CLLoc
     var viagens: [Viagem] = []
     var vaigem: Viagem!
     var indiceSelecionado: Int!
+    var controle: String = ""
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
         configLocation()
         let gesto = UILongPressGestureRecognizer(target: self, action: #selector(MapMinhasViagensViewController.marcar(gesture:)))
         gesto.minimumPressDuration = 2
         map.addGestureRecognizer(gesto)
-        print(vaigem.local + String(indiceSelecionado))
-        // Do any additional setup after loading the view.
+        if let v: Viagem = vaigem {
+            
+            print(v.local + String(indiceSelecionado))
+            
+        }
+        
+        if controle == "lista" {
+            self.anotacao(viagem: vaigem)
+        }
     }
+    
+    
+    
+    
+    func anotacao (viagem : Viagem){
+        
+        if let lViagem:String = viagem.local {
+            if let latViagem:String = viagem.latitude{
+                if let lonViagem:String = viagem.longitude{
+                    
+                    if let lat = Double(latViagem){
+                        if let lon = Double(lonViagem){
+                            
+                            // vai até local de destino
+                            
+                            let localizacao: CLLocationCoordinate2D = CLLocationCoordinate2DMake(lat, lon)
+                            let span = MKCoordinateSpan(latitudeDelta: 1, longitudeDelta: 1)
+                            
+                            let region = MKCoordinateRegion(center: localizacao, span: span)
+                            map.setRegion(region, animated: true)
+                            
+                            // COLOCA uma marquinha no mapa
+                            
+                            let anotacao = MKPointAnnotation()
+                            anotacao.coordinate.latitude = lat
+                            anotacao.coordinate.longitude = lon
+                            anotacao.title = lViagem
+                            //anotacao.subtitle = "subTitulo"
+                            
+                            self.map.addAnnotation(anotacao)
+                            
+                            
+                        }
+                    }
+                }
+            }
+        }
+    }
+        
+    
     
     // FUNC responsavel pelo click segure por 2 segundos e marca o mapa
     @objc func marcar (gesture: UIGestureRecognizer){
@@ -79,6 +126,26 @@ class MapMinhasViagensViewController: UIViewController, MKMapViewDelegate, CLLoc
         gerenciadorlocal.desiredAccuracy = kCLLocationAccuracyBest // melhor precisão possivel
         gerenciadorlocal.requestWhenInUseAuthorization() // info.plist > Required Device Capabilities > information property list > location When
         gerenciadorlocal.startUpdatingLocation()
+        
+    }
+    
+    func locationManager(_ manager: CLLocationManager, didUpdateLocations locations: [CLLocation]) {
+        
+        if controle != "lista" {
+        if let localUser: CLLocation = locations.last{
+            let latitude: CLLocationDegrees = localUser.coordinate.latitude
+            let longitude: CLLocationDegrees = localUser.coordinate.longitude
+            
+            let latitudeDelta = 0.0275
+            let longitudeDelta =  0.0275
+            
+            let localizacao: CLLocationCoordinate2D = CLLocationCoordinate2DMake(latitude, longitude)
+            let span = MKCoordinateSpan(latitudeDelta: latitudeDelta, longitudeDelta: longitudeDelta)
+            
+            let region = MKCoordinateRegion(center: localizacao, span: span)
+            map.setRegion(region, animated: true)
+            }
+        }
         
     }
     

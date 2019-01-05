@@ -42,7 +42,7 @@ class OndeEstouViewController: UIViewController, MKMapViewDelegate, CLLocationMa
          map.setRegion(region, animated: true)
          
          
-         let anotacao = MKPointAnnotation()
+         let anotacao = MKPointAnnotation()	    
          anotacao.coordinate = localizacao
          anotacao.title = "TITULO"
          anotacao.subtitle = "subTitulo"
